@@ -4,6 +4,9 @@
     <projectFile>Arrays/Arrays.csproj</projectFile>
     <projectFile>BooleanOperators/BooleanOperators.csproj</projectFile>
     <projectFile>CastingConverting/CastingConverting.csproj</projectFile>
+    <projectFile>Ch03Ex02LoopsAndOverflow/Ch03Ex02LoopsAndOverflow.csproj</projectFile>
+    <projectFile>Ch03Ex03FizzBuzz/Ch03Ex03FizzBuzz.csproj</projectFile>
+    <projectFile>Ch03Ex04Exceptions/Ch03Ex04Exceptions.csproj</projectFile>
     <projectFile>CheckingForOverflow/CheckingForOverflow.csproj</projectFile>
     <projectFile>IterationStatements/IterationStatements.csproj</projectFile>
     <projectFile>Operators/Operators.csproj</projectFile>
@@ -38,6 +41,9 @@
   "keyToString": {
     ".NET Project.Arrays.executor": "Run",
     ".NET Project.CastingConverting.executor": "Run",
+    ".NET Project.Ch03Ex02LoopsAndOverflow.executor": "Run",
+    ".NET Project.Ch03Ex03FizzBuzz.executor": "Run",
+    ".NET Project.Ch03Ex04Exceptions.executor": "Run",
     ".NET Project.CheckingForOverflow.executor": "Run",
     ".NET Project.IterationStatements.executor": "Run",
     ".NET Project.Operators.executor": "Run",
@@ -51,6 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -61,7 +68,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.CheckingForOverflow">
+  <component name="RunManager" selected=".NET Project.Ch03Ex04Exceptions">
     <configuration name="Arrays" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -107,6 +114,60 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/CastingConverting/CastingConverting.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Ch03Ex02LoopsAndOverflow" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Ch03Ex02LoopsAndOverflow/Ch03Ex02LoopsAndOverflow.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Ch03Ex03FizzBuzz" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Ch03Ex03FizzBuzz/Ch03Ex03FizzBuzz.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Ch03Ex04Exceptions" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Ch03Ex04Exceptions/Ch03Ex04Exceptions.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -199,6 +260,7 @@
       <updated>1704046768394</updated>
       <workItem from="1704046769664" duration="2610000" />
       <workItem from="1704092334913" duration="11406000" />
+      <workItem from="1704196405088" duration="2665000" />
     </task>
     <servers />
   </component>
