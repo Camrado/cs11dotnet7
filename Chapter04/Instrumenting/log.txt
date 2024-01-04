@@ -1,0 +1,7 @@
+Debug says, I am watching!
+Trace says, I am watching!
+Trace error
+Trace warning
+Trace information
+[D:\Work\Coding\PROJECTS\PROJECTS-COURSE\cs11dotnet7\mine\Chapter04\Instrumenting\Program.cs]
+ <Main>$ on line 36. Expression: unitsInStock > 10
