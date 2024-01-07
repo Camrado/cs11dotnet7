@@ -54,4 +54,9 @@ public class Person : object, IComparable<Person?> {
 
         return position;
     }
+    
+    // overriden methods
+    public override string ToString() {
+        return $"{Name} is a {base.ToString()}";
+    }
 }
