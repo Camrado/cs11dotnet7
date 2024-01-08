@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleApp", "PeopleApp\Peop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullHandling", "NullHandling\NullHandling.csproj", "{20276736-196A-438C-9017-5F2AC64F0EA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeAnalyzing", "CodeAnalyzing\CodeAnalyzing.csproj", "{104D0DC2-10C5-45F2-9FDA-0B2FD09646E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06Ex02Inheritance", "Ch06Ex02Inheritance\Ch06Ex02Inheritance.csproj", "{2E4F783D-8B8D-4139-AAE2-9926B468B697}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{20276736-196A-438C-9017-5F2AC64F0EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20276736-196A-438C-9017-5F2AC64F0EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20276736-196A-438C-9017-5F2AC64F0EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104D0DC2-10C5-45F2-9FDA-0B2FD09646E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104D0DC2-10C5-45F2-9FDA-0B2FD09646E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104D0DC2-10C5-45F2-9FDA-0B2FD09646E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104D0DC2-10C5-45F2-9FDA-0B2FD09646E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4F783D-8B8D-4139-AAE2-9926B468B697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4F783D-8B8D-4139-AAE2-9926B468B697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4F783D-8B8D-4139-AAE2-9926B468B697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4F783D-8B8D-4139-AAE2-9926B468B697}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
