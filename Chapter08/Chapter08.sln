@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithNumbers", "WorkingWithNumbers\WorkingWithNumbers.csproj", "{F74442FD-E485-4D05-8964-DC6A78F7CCA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithText", "WorkingWithText\WorkingWithText.csproj", "{DDF8F836-CDF1-4120-9357-3B96CCE4E9EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRegularExpressions", "WorkingWithRegularExpressions\WorkingWithRegularExpressions.csproj", "{D5D527F0-CC5C-4971-B026-302F5AA73B9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F74442FD-E485-4D05-8964-DC6A78F7CCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74442FD-E485-4D05-8964-DC6A78F7CCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74442FD-E485-4D05-8964-DC6A78F7CCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74442FD-E485-4D05-8964-DC6A78F7CCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF8F836-CDF1-4120-9357-3B96CCE4E9EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF8F836-CDF1-4120-9357-3B96CCE4E9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF8F836-CDF1-4120-9357-3B96CCE4E9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF8F836-CDF1-4120-9357-3B96CCE4E9EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D527F0-CC5C-4971-B026-302F5AA73B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D527F0-CC5C-4971-B026-302F5AA73B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D527F0-CC5C-4971-B026-302F5AA73B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D527F0-CC5C-4971-B026-302F5AA73B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
