@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithText", "WorkingW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRegularExpressions", "WorkingWithRegularExpressions\WorkingWithRegularExpressions.csproj", "{D5D527F0-CC5C-4971-B026-302F5AA73B9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCollections", "WorkingWithCollections\WorkingWithCollections.csproj", "{D9EB37E3-484A-4139-99D0-46AE1F14345A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRanges", "WorkingWithRanges\WorkingWithRanges.csproj", "{F9143650-E574-4C0D-AC63-2C7E972DA3D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{D5D527F0-CC5C-4971-B026-302F5AA73B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5D527F0-CC5C-4971-B026-302F5AA73B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5D527F0-CC5C-4971-B026-302F5AA73B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9EB37E3-484A-4139-99D0-46AE1F14345A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EB37E3-484A-4139-99D0-46AE1F14345A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EB37E3-484A-4139-99D0-46AE1F14345A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EB37E3-484A-4139-99D0-46AE1F14345A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9143650-E574-4C0D-AC63-2C7E972DA3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9143650-E574-4C0D-AC63-2C7E972DA3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9143650-E574-4C0D-AC63-2C7E972DA3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9143650-E574-4C0D-AC63-2C7E972DA3D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
