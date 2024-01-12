@@ -18,3 +18,13 @@ ReadOnlySpan<char> lastNameSpan = nameAsSpan[^lengthOfLast..^0];
 WriteLine("First name: {0}, Last name: {1}",
     arg0: firstNameSpan.ToString(),
     arg1: lastNameSpan.ToString());
+    
+    
+List<short> numberSeperatedBy3 = new();
+foreach (string threeNum in $"{1235002:N0}".Split(',')) {
+    numberSeperatedBy3.Add(short.Parse(threeNum));
+}
+
+foreach (var VARIABLE in numberSeperatedBy3) {
+    WriteLine(VARIABLE);
+}
