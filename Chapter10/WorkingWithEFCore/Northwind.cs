@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore; // DbContext, DbContextOptionsBuilder
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics; // DbContext, DbContextOptionsBuilder
 
 namespace Packt.Shared;
 
@@ -19,6 +20,9 @@ public class Northwind : DbContext {
         ForegroundColor = previousColor;
 
         optionsBuilder.UseSqlite(connection);
+
+        // optionsBuilder.LogTo(WriteLine, new[] { RelationalEventId.CommandExecuting }).EnableSensitiveDataLogging();
+        optionsBuilder.UseLazyLoadingProxies();
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
@@ -34,5 +38,9 @@ public class Northwind : DbContext {
                 .Property(product => product.Cost)
                 .HasConversion<double>();
         }
+        
+        // global filter to remove discontinued products
+        modelBuilder.Entity<Product>()
+            .HasQueryFilter(p => !p.Discontinued);
     }
 }
