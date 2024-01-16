@@ -1,4 +1,5 @@
-﻿using Packt.Shared;
+﻿using Castle.Components.DictionaryAdapter;
+using Packt.Shared;
 
 // Northwind db = new();
 // WriteLine($"Provider: {db.Database.ProviderName}");
@@ -24,13 +25,31 @@
 //
 // ListProducts(new[] { resultUpdate.productId });
 
-WriteLine("About to delete all products whose name starts with Bob.");
-Write("Press Enter to continue or any other key to exit: ");
+// WriteLine("About to delete all products whose name starts with Bob.");
+// Write("Press Enter to continue or any other key to exit: ");
+//
+// if (ReadKey(true).Key == ConsoleKey.Enter) {
+//     int deleted = DeleteProducts("Bob");
+//     WriteLine($"{deleted} product(s) were deleted.");
+// } else {
+//     WriteLine("Delete was canceled.");
+// }
 
-if (ReadKey(true).Key == ConsoleKey.Enter) {
-    int deleted = DeleteProducts("Bob");
-    WriteLine($"{deleted} product(s) were deleted.");
-} else {
-    WriteLine("Delete was canceled.");
-}
+// var resultUpdateBetter = IncreaseProductPricesBetter("Bob", 20M);
+//
+// if (resultUpdateBetter.affected > 0) {
+//     WriteLine("Increase product prices successful.");
+// }
+//
+// ListProducts(resultUpdateBetter.productIds);
+
+// WriteLine("About to delete all products whose name starts with Bob.");
+// Write("Press Enter to continue or any other key to exit: ");
+//
+// if (ReadKey(true).Key == ConsoleKey.Enter) {
+//     int deleted = DeleteProductsBetter(productNameStartsWith: "Bob");
+//     WriteLine($"{deleted} product(s) were deleted.");
+// } else {
+//     WriteLine("Delete was canceled.");
+// }
 

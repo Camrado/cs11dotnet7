@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore; // ExecuteUpdate, ExecuteDelete
 using Microsoft.EntityFrameworkCore.ChangeTracking; // EntityEntry<T>
+using Microsoft.EntityFrameworkCore.Storage; // IDbContextTransaction
 using Packt.Shared; // Northwind, Product
 
 partial class Program {
@@ -72,6 +73,8 @@ partial class Program {
 
     static int DeleteProducts(string productNameStartsWith) {
         using Northwind db = new();
+        using IDbContextTransaction t = db.Database.BeginTransaction();
+        WriteLine($"Transaction isolation level: {t.GetDbTransaction().IsolationLevel}");
 
         IQueryable<Product>? products = db.Products?.Where(p => p.ProductName.StartsWith(productNameStartsWith));
 
@@ -87,6 +90,44 @@ partial class Program {
         }
 
         int affected = db.SaveChanges();
+        
+        t.Commit();
+        
+        return affected;
+    }
+
+    static (int affected, int[]? productIds) IncreaseProductPricesBetter(string productNameStartsWith, decimal amount) {
+        using Northwind db = new();
+
+        if (db.Products is null) {
+            return (0, null);
+        }
+        
+        // Get products which name starts with the parameter value
+        IQueryable<Product>? products = db.Products.Where(p => p.ProductName.StartsWith(productNameStartsWith));
+
+        int affected = products.ExecuteUpdate(s => s.SetProperty(
+            p => p.Cost, // property selector lambda expression
+            p => p.Cost + amount)); // value to update to lambda expression
+
+        int[] productIds = products.Select(p => p.ProductId).ToArray();
+
+        return (affected, productIds);
+    }
+
+    static int DeleteProductsBetter(string productNameStartsWith) {
+        using Northwind db = new();
+
+        int affected = 0;
+
+        IQueryable<Product>? products = db.Products?.Where(p => p.ProductName.StartsWith(productNameStartsWith));
+
+        if ((products is null) || (!products.Any())) {
+            WriteLine("No products found to delete");
+            return 0;
+        }
+
+        affected = products.ExecuteDelete();
         return affected;
     }
 }
