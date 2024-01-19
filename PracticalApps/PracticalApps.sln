@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.EntityModels.Sqlite", "Northwind.Common.EntityModels.Sqlite\Northwind.Common.EntityModels.Sqlite.csproj", "{9D8D4DCD-1792-4F59-9AFF-82AE5EDDF4D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.DataContext.Sqlite", "Northwind.Common.DataContext.Sqlite\Northwind.Common.DataContext.Sqlite.csproj", "{EE9E278D-81CF-4711-B3E3-D0938CEEBF0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.UnitTests", "Northwind.Common.UnitTests\Northwind.Common.UnitTests.csproj", "{B1479398-AA4B-477A-8A69-FD94A13E127C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D8D4DCD-1792-4F59-9AFF-82AE5EDDF4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8D4DCD-1792-4F59-9AFF-82AE5EDDF4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8D4DCD-1792-4F59-9AFF-82AE5EDDF4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8D4DCD-1792-4F59-9AFF-82AE5EDDF4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9E278D-81CF-4711-B3E3-D0938CEEBF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9E278D-81CF-4711-B3E3-D0938CEEBF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9E278D-81CF-4711-B3E3-D0938CEEBF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9E278D-81CF-4711-B3E3-D0938CEEBF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1479398-AA4B-477A-8A69-FD94A13E127C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1479398-AA4B-477A-8A69-FD94A13E127C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1479398-AA4B-477A-8A69-FD94A13E127C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1479398-AA4B-477A-8A69-FD94A13E127C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
