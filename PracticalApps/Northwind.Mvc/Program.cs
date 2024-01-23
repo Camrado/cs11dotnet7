@@ -1,7 +1,10 @@
+// Section 1 - import namespaces
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Northwind.Mvc.Data;
+using Packt.Shared; // AddNorthwindContext extension method
 
+// Section 2 - configure the host web server including services
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -15,8 +18,11 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddNorthwindContext();
+
 var app = builder.Build();
 
+// Section 3 - 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment()) {
     app.UseMigrationsEndPoint();
@@ -39,4 +45,5 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
-app.Run();
+// Section 4 - start the host web server listening for HTTP requests
+app.Run(); // blocking call
